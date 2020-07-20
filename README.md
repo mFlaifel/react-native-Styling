@@ -73,7 +73,7 @@ What is the dimensions used in react-native?
 
   ![pids vs pixel](https://i.ibb.co/4t3Thsg/Annotation-2020-07-20-192607.png)
 
-- use [Dimension](https://reactnative.dev/docs/dimensions) or [useWindowDimension](https://reactnative.dev/docs/usewindowdimensions) to know the exact dimension of your mobile screen.
+- Use [Dimension](https://reactnative.dev/docs/dimensions) or [useWindowDimension](https://reactnative.dev/docs/usewindowdimensions) to know the exact dimension of your mobile screen.
 
 ## Flexbox
 
