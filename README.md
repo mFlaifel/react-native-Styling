@@ -2,7 +2,8 @@
 
 ## Customize Styling
 
-- There no css in react-native we use javascript to style our code.
+- There is no css in react-native, we use javascript to style our code.
+
 - You have two ways to style an element:
 
 1. Inside the tag itself like
@@ -36,7 +37,7 @@
    });
    ```
 
-   you can pass more than one style by nesting all styles in an array like:
+   You can pass more than one style by nesting all styles in an array like:
 
    ```javascript
    <View style={[styles.container ,styles.formContainer]}>
@@ -60,7 +61,7 @@
 
 ## Dimensions in react-native
 
-look at this example:
+Look at this example:
 
 ```javascript
 <View style={{ width: 150, height: 150 }} />
@@ -68,7 +69,7 @@ look at this example:
 
 What is the dimensions used in react-native?
 
-- in react-native we use "DIP" = Density-Independent-pixel , so in our example width and height are 100 dips, and the actual size on the mobile will be 100 x Scale Factor.
+- In react-native we use "DIP" = Density-Independent-pixel , so in our example width and height are 100 dips, and the actual size on the mobile will be 100 x Scale Factor.
 
   ![pids vs pixel](https://i.ibb.co/4t3Thsg/Annotation-2020-07-20-192607.png)
 
@@ -80,7 +81,7 @@ What is the dimensions used in react-native?
 >
 > [react-native docs](https://reactnative.dev/docs/flexbox)
 
-#### flex property
+#### Flex property
 
 We use flex property to specify how the item grow to fill the available space.
 
@@ -102,4 +103,4 @@ it's like regular css, but the default position is 'relative'
 
 ## [Platform Specific Code](https://reactnative.dev/docs/platform-specific-code)
 
-## [exercise](https://programmingwithmosh.com/wp-content/uploads/2020/05/Layout-Exercises.pdf)
+## [Exercise](https://programmingwithmosh.com/wp-content/uploads/2020/05/Layout-Exercises.pdf)
