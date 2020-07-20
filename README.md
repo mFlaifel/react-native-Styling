@@ -2,16 +2,16 @@
 
 ## Customize Styling
 
-- there no css in react-native we use javascript to style our code.
-- there is two ways to style an element:
+- There no css in react-native we use javascript to style our code.
+- You have two ways to style an element:
 
-1. inside the tag itself like
+1. Inside the tag itself like
 
    ```javascript
    <View style={{ width: 100, height: 100, backgroundColor: "blue" }} />
    ```
 
-2. use StyleSheet
+2. Use StyleSheet
 
    ```javascript
    // don't forget to import StyleSheet
@@ -36,15 +36,15 @@
    });
    ```
 
-   you can pass more than style by nesting all styles in an array like:
+   you can pass more than one style by nesting all styles in an array like:
 
    ```javascript
    <View style={[styles.container ,styles.formContainer]}>
    ```
 
-   when you call multiple styles the right one will override the left one .
+   ##### When you call multiple styles the right one will override the left one .
 
-   it's recommended to use StyleSheet for many reasons
+   It's recommended to use StyleSheet for many reasons:
 
    1. By moving styles away from the render function, you're making the code easier to understand.
 
@@ -53,6 +53,7 @@
    3. Making a stylesheet from a style object makes it possible to refer to it by ID instead of creating a new style object every time.
 
    4. It also allows to send the style only once through the bridge. All subsequent uses are going to refer an id (not implemented yet).
+   
    5. StyleSheet check your syntax and throw an error when you have something wrong in you style.
 
       [source](https://stackoverflow.com/questions/38958888/react-native-what-is-the-benefit-of-using-stylesheet-vs-a-plain-object#:~:text=Performance%3A,only%20once%20through%20the%20bridge.)
@@ -65,7 +66,7 @@ look at this example:
 <View style={{ width: 150, height: 150 }} />
 ```
 
-what is the dimensions used in react-native?
+What is the dimensions used in react-native?
 
 - in react-native we use "DIP" = Density-Independent-pixel , so in our example width and height are 100 dips, and the actual size on the mobile will be 100 x Scale Factor.
 
@@ -81,7 +82,7 @@ what is the dimensions used in react-native?
 
 #### flex property
 
-we use flex to specify how the item grow to fill the available space.
+We use flex property to specify how the item grow to fill the available space.
 
 ```
 <View style={{styles.container}}>
